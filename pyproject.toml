@@ -3,7 +3,7 @@ name = "hello-universe"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "mariia",email = "mariia.redchuk@gmail.com"}
+    {name = "sagitta42",email = "mariia.redchuk@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.12"
