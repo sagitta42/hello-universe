@@ -1,4 +1,9 @@
 def is_answer(x: int) -> bool:
+    """
+    Function that gives the answer.
+
+    x (int): number you want to check
+    """
     if x == 42:
         ans = ""
     else:
@@ -7,4 +12,7 @@ def is_answer(x: int) -> bool:
     print(msg)
 
 def hello_world():
+    """
+    Simple hello world print
+    """
     print("Hello world")
