@@ -1,4 +1,15 @@
 # hello-universe
+
+Tutorial for creating a python library.
+
+Structure your python code in a way this repository is structured.
+
+Publish it as a GitHub repository.
+
+Now it can be installed as a python library via `pip install` and used as a python library with `import`.
+
+## Install
+
 Install via
 
 ```bash
