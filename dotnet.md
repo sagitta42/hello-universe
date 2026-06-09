@@ -60,3 +60,7 @@ then
 $ source ~/.bashrc
 ```
 then test `dotnet --version`
+
+## Create MVC Web App project
+
+Open Rider > New Solution > Select Project Type Web > Language C# > Web App (Model-View-Controller) > Create
