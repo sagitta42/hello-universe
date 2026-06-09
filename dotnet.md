@@ -18,6 +18,8 @@ $ ./bin/rider
 
 ## Install .NET
 
+### `apt-get` (Debian)
+
 Some Linux distributions publish their own `dotnet` packages (install via `apt-get`), including **Debian**.
 
 Follow the instructions here:
@@ -25,6 +27,8 @@ Follow the instructions here:
 https://learn.microsoft.com/en-us/dotnet/core/install/linux-debian?tabs=dotnet10
 
 to install **.NET SDK**
+
+### scripted install
 
 For other distributions (e.g. Linux Mint), use the script based install procedure:
 
@@ -35,3 +39,24 @@ $ wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh
 $ chmod +x ./dotnet-install.sh
 $ ./dotnet-install.sh --version latest
 ```
+
+Test run `dotnet --version`; if says command not found, find where `dotnet` was installed:
+
+```bash
+$ find / -namfind / -name "dotnet" -type f 2>/dev/null
+```
+and test run e.g.:
+```bash
+$ /home/mariia/.dotnet/dotnet --version
+10.0.300
+```
+EAdd `dotnet` to `$PATH` in `.bashrc` so that it is "visible" to other programs like Rider. Example in this case, add this line:
+
+```bash
+$ export PATH=$PATH:$HOME/.dotnet
+```
+then
+```bash
+$ source ~/.bashrc
+```
+then test `dotnet --version`
