@@ -1,6 +1,6 @@
-# hello-universe
+# Python library tutorial
 
-Tutorial for creating a python library.
+Tutorial for creating a python library called `hello-universe`.
 
 Structure your python code in a way this repository is structured.
 
