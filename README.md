@@ -13,7 +13,7 @@ Now it can be installed as a python library via `pip install` and used as a pyth
 Install via
 
 ```bash
-$ pip install git+https://github.com/sagitta42/hello-universe
+$ pip install git+https://github.com/sagitta42/tutorial-python-library
 ```
 
 ## Usage
